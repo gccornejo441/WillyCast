@@ -1,8 +1,10 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import { Body } from '../components/Body/Body'
 import { Comment } from '../components/CommentBox/Comment'
 import { Navbar } from '../components/NavBar/Navbar'
+import { Sidebar } from '../components/SideBar/Sidebar'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
@@ -16,7 +18,7 @@ const Home: NextPage = () => {
 
       <div className="App">
         <Navbar/>
-        <Comment/>
+        <Body/>
       </div>
 
       <footer className={styles.footer}>
