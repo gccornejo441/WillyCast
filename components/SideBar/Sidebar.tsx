@@ -33,7 +33,7 @@ const links: ISideNavs[] = [
 
 export const Sidebar = () => {
     return (
-        <div className=" border-2 border-black bg-blue-400 comment-box grid grid-cols-1 h-fit w-1/2 mr-10">
+        <div className=" border-2 border-black bg-blue-400 comment-box grid grid-cols-1 h-fit w-fit mr-10">
             {links.map((item) => {
                 return (
                     <Link key={item._id} href={item.href}>
